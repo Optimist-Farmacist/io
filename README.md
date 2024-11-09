@@ -1,95 +1,204 @@
 <div align="center">
   
-# 🌿 OPTIMIST FARMACIST 🌿
+# 🌿 OPTIMIST FARMACIST
 
-![Optimist Farmacist Logo](https://raw.githubusercontent.com/Optimist-Farmacist/io/refs/heads/main/0aaeb945-5eb0-47ec-b775-6d7b81a103b0.jpeg)
+<img src="https://raw.githubusercontent.com/Optimist-Farmacist/io/refs/heads/main/0aaeb945-5eb0-47ec-b775-6d7b81a103b0.jpeg" alt="Optimist Farmacist Logo" width="100%" style="max-width: 500px;">
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; margin: 1rem 0;">
 
 [![Website](https://img.shields.io/badge/Website-Live-orange.svg)](https://optimist-farmacist.github.io/io/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/Optimist-Farmacist/io?style=social)](https://github.com/Optimist-Farmacist/io/stargazers)
-
-*Your trusted source for premium medicinal herbs and botanical wellness solutions* 🌱
+[![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
+[![Tailwind](https://img.shields.io/badge/Tailwind-3-06B6D4.svg)](https://tailwindcss.com/)
 
 </div>
 
----
+*Premium Medicinal Herbs & Botanical Wellness* 🌱
 
-## 🎯 About The Project
+[Website](https://optimist-farmacist.github.io/io/) | [Documentation](#documentation) | [Contributing](#contributing)
 
-Optimist Farmacist is a modern, user-centric platform dedicated to providing high-quality medicinal herbs and botanical products. Our platform combines traditional herbal wisdom with contemporary wellness practices to deliver an exceptional shopping experience.
+</div>
 
-### ✨ Key Features
+## 📑 Table of Contents
 
-- 🛍️ Intuitive Shopping Interface
-- 🔐 Secure User Authentication
-- 📱 Fully Responsive Design
-- 🌿 Curated Product Selection
-- 🚀 Fast and Smooth Performance
+- [Quick Start](#-quick-start)
+- [About](#-about)
+- [Features](#-features)
+- [Installation](#-installation)
+- [Development](#-development)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
-## 🎨 Design Philosophy
-
-Our design approach merges sleek aesthetics with functionality:
-- **Dark Theme**: Easy on the eyes with orange accents
-- **Modern UI**: Clean, intuitive interface
-- **Responsive**: Seamless experience across all devices
-- **Brand Identity**: Distinctive monkey mascot representing optimism and wisdom
-
-## 🛠️ Tech Stack
-
-- **Frontend**: React.js
-- **Styling**: Tailwind CSS
-- **UI Components**: Shadcn/ui
-- **Icons**: Lucide React
-- **Version Control**: Git
-
-## 📦 Installation
+## 🚀 Quick Start
 
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/Optimist-Farmacist/io.git
 
-# Navigate to project directory
-cd io
-
 # Install dependencies
-npm install
+cd io && npm install
 
 # Start development server
 npm run dev
 ```
 
-## 🚀 Quick Start
+Visit [https://optimist-farmacist.github.io/io/](https://optimist-farmacist.github.io/io/) to see the live site.
 
-1. Visit [https://optimist-farmacist.github.io/io/](https://optimist-farmacist.github.io/io/)
-2. Create an account or browse as guest
-3. Explore our curated selection of medicinal herbs
-4. Place your order through our secure checkout system
+## 📖 About
 
-## 🎯 Roadmap
+Optimist Farmacist is a modern e-commerce platform specializing in medicinal herbs and botanical wellness products. Our platform combines:
 
-- [ ] Enhanced Product Filtering
-- [ ] User Reviews System
-- [ ] Loyalty Program
-- [ ] Mobile App Development
-- [ ] International Shipping
+- 🌟 Premium quality herbs
+- 💻 Modern web technology
+- 🎨 Intuitive design
+- 📱 Mobile-first approach
+
+## ✨ Features
+
+### Current Features
+- 🛍️ Intuitive Shopping Experience
+  - Easy product browsing
+  - Quick search
+  - Detailed product information
+
+- 🔐 Secure Authentication
+  - User accounts
+  - Protected checkout
+  - Order history
+
+- 📱 Responsive Design
+  - Mobile-optimized
+  - Tablet support
+  - Desktop enhancement
+
+- 🎨 Modern Interface
+  - Dark theme
+  - Orange accents
+  - Smooth animations
+
+### Upcoming Features
+- 📊 User Reviews
+- 💳 Enhanced Payment Options
+- 🌍 International Shipping
+- 📱 Native Mobile App
+
+## 💻 Installation
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm/yarn
+- Git
+
+### Setup Steps
+
+1. Clone the repository
+```bash
+git clone https://github.com/Optimist-Farmacist/io.git
+```
+
+2. Navigate to project directory
+```bash
+cd io
+```
+
+3. Install dependencies
+```bash
+npm install
+```
+
+4. Start development server
+```bash
+npm run dev
+```
+
+5. Build for production
+```bash
+npm run build
+```
+
+## 🛠 Development
+
+### Tech Stack
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **Components**: Shadcn/ui
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+- **Deployment**: GitHub Pages
+
+### Project Structure
+```
+io/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── styles/
+│   └── App.jsx
+├── public/
+├── package.json
+└── README.md
+```
+
+## 📚 Documentation
+
+### Main Components
+- **Navigation**: Responsive header with mobile menu
+- **Product Grid**: Displays product cards
+- **Authentication**: Login/Register forms
+- **Shopping Cart**: Cart management
+- **Checkout**: Secure checkout process
+
+### Styling Guide
+- Dark theme with orange accents
+- Consistent spacing using Tailwind
+- Responsive breakpoints
+- Accessibility considerations
 
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+2. Create your feature branch
+```bash
+git checkout -b feature/AmazingFeature
+```
+3. Commit your changes
+```bash
+git commit -m 'Add AmazingFeature'
+```
+4. Push to the branch
+```bash
+git push origin feature/AmazingFeature
+```
 5. Open a Pull Request
+
+### Contribution Guidelines
+- Keep PRs focused and concise
+- Follow existing code style
+- Add tests when possible
+- Update documentation
+- Reference issues
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
 
-Project Link: [https://github.com/Optimist-Farmacist/io](https://github.com/Optimist-Farmacist/io)
+- Website: [optimist-farmacist.github.io/io](https://optimist-farmacist.github.io/io/)
+- GitHub: [github.com/Optimist-Farmacist/io](https://github.com/Optimist-Farmacist/io)
+- Email: contact@optimistfarmacist.com
+
+## 🙏 Acknowledgments
+
+- React.js team
+- Tailwind CSS
+- Shadcn/ui
+- Our contributors
 
 ---
 
