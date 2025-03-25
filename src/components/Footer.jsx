@@ -64,6 +64,17 @@ function Footer() {
 
         <div className="mt-8 pt-8 border-t border-orange-500/20 text-center">
           <p className="text-gray-400">&copy; {new Date().getFullYear()} Optimist Farmacist. All rights reserved.</p>
+          <p className="text-gray-400 mt-2">
+            Website crafted by{' '}
+            <a 
+              href="https://www.skunkworksdigital.co.za/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-orange-500 hover:text-orange-400 transition-colors"
+            >
+              Skunkworks Digital
+            </a>
+          </p>
         </div>
       </div>
     </footer>
